@@ -1,0 +1,210 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:2500;
+}
+
+body{
+    background-color: rgb(243,245,255);
+}
+
+header{
+    position: sticky;
+    top: 0;
+    margin-top:-8px;
+    margin-left:-8px;
+    width:101%;
+
+}
+
+.catback{
+    background-color: rgb(75,75,75);
+    border-bottom:4px solid rgb(229, 197, 37)
+}
+
+.category{
+    display:flex;
+    opacity:0.7;
+    width:60%;
+    height:50px;
+    top:0;
+    right:0;
+    left:0;
+}
+
+.category a{
+    font-size:35px;
+    text-decoration: none;
+    margin:auto;
+    /* background-color: blue; */
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:2500;
+}
+
+.category a:hover{
+    color:darkorange;
+}
+/* 카테고리, 헤더 css --------------------------------------------------------*/
+
+
+#aboutme{
+    /* background-color: red; */
+    text-align: center;
+    padding-top:30px;
+}
+
+#aboutme h1{
+    font-size:55px;
+    width:280px;
+    margin:auto;
+    border-bottom:2px solid black;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+#aboutme b{
+    font-family: 'Grape Nuts', cursive;
+    font-size:50px;
+}
+
+#aboutme p{
+    font-size:20px;
+}
+/* 소개글 ----------------------------------------------------------------*/
+
+#skill{
+    text-align:center;
+    background-color: white;
+    width:101%;
+    margin-left:-6px;
+    padding-top:30px;
+}
+
+#skill h1{
+    font-size:55px;
+    width:420px;
+    margin:auto;
+    border-bottom:2px solid black;
+    padding-top:30px;
+}
+
+#skill img{
+    width:100px;
+    height:100px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:10px;
+}
+
+#skill img:hover{
+    cursor:pointer;
+}
+
+#skill p{
+    font-size:20px;
+    font-weight: bold;
+    color:rgb(79,79,79);
+}
+
+/* 기술들 ----------------------------------------------------------------*/
+
+#blog{
+    text-align: center;
+    width:75%;
+    /* background-color: red; */
+    margin:auto;
+    padding-top:30px;
+}
+
+#blog h1{
+    font-size:55px;
+    width:250px;
+    margin:auto;
+    border-bottom:2px solid black;
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+#blog p{
+    font-size:20px;
+    color:rgb(79,79,79);
+}
+
+#thumbnail img{
+    height:40%;
+    width:40%;
+    border-radius: 18px;
+    border:3px solid rgb(112, 173, 231);
+    margin:5px;
+}
+
+/* 블로그 ----------------------------------------------------------------*/
+
+#contact{
+    background-color: rgb(181, 201, 255);
+    width:101%;
+    margin-left:-6px;
+    text-align:center;
+    margin-top:15px;
+}
+
+#contact h1{
+    color:white;
+    font-size:70px;
+    width:320px;
+    margin:auto;
+    border-bottom:1px solid white;
+    padding-top:25px;
+}
+
+#contact p{
+    color:white;
+    font-size:23px;
+}
+
+#contact h4{
+    color:white;
+    margin-bottom:0px;
+}
+
+#sendmail img{
+    height:100px;
+    width:100px;
+}
+
+/* 연락 ----------------------------------------------------------------*/
+
+#finish{
+    background-color: rgb(142, 172, 255);
+    width:101%;
+    margin-left:-6px;
+    text-align:center;
+    height:250px;
+    padding-top:1px;
+}
+
+#finish p{
+    color:white;
+    font-size:18px;
+}
+
+#call{
+    margin-top:25px;
+}
+#call img{
+    width:70px;
+    height:70px;
+    margin:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+#finish h5{
+    color:white;
+    margin-top:30px;
+}

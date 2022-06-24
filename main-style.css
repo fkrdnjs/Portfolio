@@ -1,0 +1,47 @@
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight:2500;
+}
+
+body{
+    background-image: url(image/back.png);
+    background-size: cover;
+}
+
+.name{
+    margin-top:230px;
+    text-align:center;
+    font-size:60px;
+    /* background-color: red; */
+    margin-bottom:0px;
+}
+
+.dream{
+    text-align:center;
+    font-size:40px;
+    /* background-color: blue; */
+    margin-bottom:20px;
+    margin-top:10px;
+}
+
+#buback{
+    text-align: center;
+}
+
+#button{
+    text-align: center;
+    font-weight:bold;
+    font-size:50px;
+    border: 7px solid rgb(169, 228, 250);
+    width:30%;
+    margin:auto;
+    background-color: white;
+    padding:5px;
+}
+
+#button:hover{
+    cursor:pointer;
+    background-color: rgb(169,228,250);
+    color:white;
+    font-weight:bold;
+}
